@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_auth/Screens/Loggedin_Page.dart';
-import 'package:flutter_auth/components/rounded_button.dart';
-import 'package:flutter_auth/constants.dart';
+import '../../../components/rounded_button.dart';
+import '../../../constants.dart';
+import '../../Loggedin_Page.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import './background.dart';
 
@@ -32,7 +32,7 @@ class _BodyState extends State<Body> {
           children: [
             const Text(
               'LOGIN',
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
             ),
             SizedBox(height: size.height * 0.03),
             SvgPicture.asset(
